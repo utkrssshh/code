@@ -50,3 +50,10 @@ td {
 .n {
   padding: 60px;
 }
+
+.frm_div {
+  border: 4px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
