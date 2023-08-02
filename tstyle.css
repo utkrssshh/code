@@ -1,0 +1,52 @@
+body {
+  background-color: aqua;
+  margin-left: 50px;
+}
+
+.fnt {
+  font-size: 40px;
+  font-family: cursive;
+  text-align: center;
+  font-style: italic;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.tab {
+  font-size: 40px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+.m {
+  padding-left: 20px;
+}
+
+.f {
+  padding: 40px;
+}
+
+.tab1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: cursive;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.v {
+  padding-left: 15px;
+}
+
+.n {
+  padding: 60px;
+}

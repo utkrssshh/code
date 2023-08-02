@@ -1,0 +1,60 @@
+body {
+  background-color: aquamarine;
+  margin-left: 50px;
+}
+h1 {
+  font-size: 100px;
+  font-family: cursive;
+  margin-bottom: 1px;
+}
+
+.full {
+  margin-top: 1px;
+  font-size: 90px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.shin {
+  margin-top: 0;
+  width: 300;
+  height: 600px;
+  border-radius: 40px;
+  /* margin-left: 50px; */
+}
+
+.meet {
+  margin-left: 5px;
+  font-size: 50px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+img:hover {
+  filter: grayscale(0);
+  transform: scale(1.2) rotate(7deg);
+}
+
+.lst {
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.lsts {
+  font-size: 30px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.lnk {
+  font-size: 30px;
+  font-family: cursive;
+  font-style: italic;
+}
