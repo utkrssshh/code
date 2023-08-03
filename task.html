@@ -40,8 +40,8 @@
           <td><span class="f">&#10004;</span></td>
         </tr>
         <tr>
-          <td>Kareena</td>
-          <td><span class="m">&#10008;</span></td>
+          <td>Elvish</td>
+          <td><span class="m">&#10004;</span></td>
           <td><span class="f">&#10008;</span></td>
         </tr>
       </table>
@@ -92,19 +92,32 @@
       <form class="frm">
         <div>
           <label for="fname">First Name:</label>
-          <input type="text" name="fname" placeholder="first_name" required />
+          <input
+            class="abc"
+            type="text"
+            name="fname"
+            placeholder="first_name"
+            required
+          />
         </div>
 
         <br />
         <div>
           <label for="lname">Last Name:</label>
-          <input type="text" name="lname" placeholder="last_name" required />
+          <input
+            class="abc"
+            type="text"
+            name="lname"
+            placeholder="last_name"
+            required
+          />
         </div>
 
         <br />
         <div>
           <label for="pass">Password:</label>
           <input
+            class="abc"
             type="password"
             id="pass"
             name="pass"
@@ -117,6 +130,7 @@
         <div>
           <label for="email">Email:</label>
           <input
+            class="abc"
             type="email"
             id="email"
             name="email"
@@ -129,6 +143,7 @@
         <div>
           <label for="phone">Phone No.</label>
           <input
+            class="abc"
             type="tel"
             id="phone"
             name="phone"
@@ -140,28 +155,27 @@
         <br />
         <div>
           <label for="dob">Birthdate:</label>
-          <input type="date" id="dob" required />
+          <input class="abc" type="date" id="dob" required />
         </div>
 
         <br />
         <div>
           <label for="title">Title:</label>
-          <label for="Mr.">Mr.</label>
-          <input type="radio" id="Mr." name="title" value="Mr." />
-          <label for="Mrs.">Mrs.</label>
-          <input type="radio" id="Mrs." name="title" value="Mrs." />
-          <label for="PhD.">PhD.</label>
-          <input type="radio" id="PhD." name="title" value="PhD.." />
+          <select id="title" class="abc">
+            <option class="abc">Mr.</option>
+            <option class="abc">Ms.</option>
+            <option class="abc">Mrs.</option>
+          </select>
         </div>
 
         <br />
         <div>
-          <input type="reset" />
+          <input class="abc" type="reset" />
         </div>
 
         <br />
         <div>
-          <input type="submit" />
+          <input class="abc" type="submit" />
         </div>
       </form>
     </div>
